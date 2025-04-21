@@ -22,54 +22,54 @@ Place ChessGame.h, ChessGame.cpp, and README.md(this file) in a project director
 
 ### To Create Project:
 
-Open Code::Blocks.
-Go to File > New > Project > Console Application > Go.
-Select C++, then click Next.
-Enter project name (e.g., ChessMaster) and choose the project directory.
-Ensure GNU GCC Compiler is selected, then click Finish.
+- Open Code::Blocks.
+- Go to File > New > Project > Console Application > Go.
+- Select C++, then click Next.
+- Enter project name (e.g., ChessMaster) and choose the project directory.
+- Ensure GNU GCC Compiler is selected, then click Finish.
 
 ### To Add Source Files:
 
-In the Management pane, right-click the project name.
-Select Add files... and add ChessGame.h and ChessGame.cpp.
-Verify files appear under Headers and Sources.
+- In the Management pane, right-click the project name.
+- Select Add files... and add ChessGame.h and ChessGame.cpp.
+- Verify files appear under Headers and Sources.
 
 ### Configure Compiler:
 
-Go to Settings > Compiler... > Compiler Flags.
-Check -std=c++11 to enable C++11 features.
-Click OK.
+- Go to Settings > Compiler... > Compiler Flags.
+- Check -std=c++11 to enable C++11 features.
+- Click OK.
 
 ### To Build The Code:
 
-Click Build > Build (or Ctrl+F9).
-Check the Build Log for errors. Ensure both files are included and C++11 is enabled.
+- Click Build > Build (or Ctrl+F9).
+- Check the Build Log for errors. Ensure both files are included and C++11 is enabled.
 
 ### To Run The Code:
 
-Click Build > Run (or Ctrl+F10) or Build > Build and Run (F9).
-The console opens, displaying the main menu.
+- Click Build > Run (or Ctrl+F10) or Build > Build and Run (F9).
+- The console opens, displaying the main menu.
 
 #### Note: Use a terminal with ANSI color support (e.g: Windows Terminal, Linux/macOS terminals) for proper color rendering. The default Code::Blocks console (Windows CMD) may not display colors correctly.
 
 ## Limitations
 
-No AI opponent; designed for two human players.
-Custom four-check rule often overrides standard checkmate/stalemate endings.
-No support for advanced draw rules (e.g., threefold repetition, insufficient material).
-Requires ANSI color support for proper console formatting.
-File I/O assumes valid file formats for loading (no error messages for invalid files).
+- No AI opponent; designed for two human players.
+- Custom four-check rule often overrides standard checkmate/stalemate endings.
+- No support for advanced draw rules (e.g., threefold repetition, insufficient material).
+- Requires ANSI color support for proper console formatting.
+- File I/O assumes valid file formats for loading (no error messages for invalid files).
 
 ## Troubleshooting
 
-No Colors: Use Windows Terminal or a Linux/macOS terminal. Configure Code::Blocks to use an external terminal (Settings > Environment > Terminal to launch console programs).
+- No Colors: Use Windows Terminal or a Linux/macOS terminal. Configure Code::Blocks to use an external terminal (Settings > Environment > Terminal to launch console programs).
 
-Build Errors: Ensure ChessGame.h and ChessGame.cpp are added to the project and -std=c++11 is enabled (Project > Build Options > Compiler Flags).
+- Build Errors: Ensure ChessGame.h and ChessGame.cpp are added to the project and -std=c++11 is enabled (Project > Build Options > Compiler Flags).
 
-Invalid Moves: Use correct notation (e.g., e2 e4) and ensure moves are legal.
+- Invalid Moves: Use correct notation (e.g., e2 e4) and ensure moves are legal.
 
-File Issues: Save files to the project directory and verify filenames match when loading.
+- File Issues: Save files to the project directory and verify filenames match when loading.
 
 ## License
 
-This project is provided as-is for academic purposes. No formal license is specified.
+This project is provided for academic purposes. No formal license is specified.
